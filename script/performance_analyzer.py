@@ -85,7 +85,7 @@ class PerformanceAnalyzer:
         conn = sqlite3.connect(self.db_path)
         
         # Get current viral detection results
-        current_results = self.engine.detect_viral_keywords(self.db_path, 24)
+        current_results = self.engine.detect_viral_keywords(self.db_path, 168)
         
         # Calculate various metrics
         metrics = {
